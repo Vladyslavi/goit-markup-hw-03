@@ -99,8 +99,6 @@ button {
     display: flex;
     gap: 40px;
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-container {
     display: flex;
