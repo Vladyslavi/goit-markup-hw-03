@@ -96,6 +96,10 @@ button {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    padding: 24px
 }
 .header-container {
     display: flex;
