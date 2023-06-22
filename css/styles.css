@@ -95,10 +95,7 @@ button {
 .header {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
-}
-.header-section {
-    display: flex;
-    border-bottom: 1px solid var(--border-portfolio-color);
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
