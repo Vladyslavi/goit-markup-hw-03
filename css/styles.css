@@ -1,4 +1,4 @@
-:root {
+:root{
     --main-dark-cl: #2E2F42;
     --main-dark-accent: #434455;
     --main-light-cl: #F4F4FD;
@@ -12,13 +12,13 @@
 *::after {
     box-sizing: border-box;
 }
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: var(--main-dark-accent);
     background-color: var(--accent-cl);
 }
+
 img {
     display: block;
     max-width: 100%;
@@ -30,6 +30,7 @@ ol {
     padding: 0;
     margin: 0;
 }
+
 h1,
 h2,
 h3,
@@ -37,6 +38,7 @@ h4,
 h5 p {
     margin: 0;
 }
+
 .link,
 a {
     text-decoration: none;
@@ -47,6 +49,13 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+.
+.section {}
+
+.title {}
+
+.title-accent {}
+
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -59,13 +68,13 @@ button {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: var(--main-dark-cl);
     margin-bottom: 72px;
 }
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -76,13 +85,12 @@ button {
 }
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--blue-accent-cl)
+    color: var(--blue-accent-cl);
 }
 
 .logo-dark {
@@ -95,36 +103,47 @@ button {
 .header {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
-    border-bottom: 1px solid #e7e9fc;
-    display: flex;
-    gap: 40px;
-    margin-right: 40px;
 }
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+.header-link {}
+
 .header-nav {
     display: flex;
     align-items: center;
 }
-.link{
+
+.link {
     text-decoration: none;
 }
+
 .header-nav .logo {
     margin-right: 76px;
 }
+
+.header-logo {}
+
+.web {}
+
+.studio {}
+
 .header-list {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -135,29 +154,38 @@ button {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--BLUE-accent-cl)
+    color: var(--BLUE-accent-cl);
 }
 
 .address {
     font-style: normal;
 }
+
 .address-list {
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
+.tel {}
+
+.mail {}
+
 .address-link {
     letter-spacing: 0.02em;
+    line-height: 1.5;
     color: var(--main-dark-accent);
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--BLUE-accent-cl)
+    color: var(--BLUE-accent-cl);
 }
+
 .address {
     list-style: none;
 }
+.section {}
 
 .hero {
     background-color: var(--main-dark-cl);
@@ -197,13 +225,17 @@ button {
 .hero-btn:focus {
     background-color: var(--BLUE-accent-cl);
 }
+.section {}
+
 .advantages {
     padding-top: 120px;
     padding-top: 60px;
 }
-.section-advantages{
+
+.section-advantages {
     display: flex;
 }
+
 .section-advantages-list {
     display: flex;
     width: 264px;
@@ -213,13 +245,17 @@ button {
 
 .section-advantages-item {
     padding: 8px;
+
 }
 
+
+.section-advantages-subtitle {}
 
 .section-advantages-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section {}
 
 .doing {
     padding-top: 60px;
@@ -234,24 +270,39 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+.section-doing-img {}
+.section {}
+
 .team {
     background-color: var(--main-light-cl);
     padding-top: 120px;
 }
+
+.section-team-title {}
+
 .section-team-list {
     display: flex;
     margin-bottom: 120px;
     justify-content: space-between;
 }
 
+.section-team-list .subtitle {}
+
 .section-team-item {
-    background: var(--accent-cl)
+    background: var(--accent-cl);
 }
+
+.section-team-img {}
+
+.section-team-subtitle {}
+
 .section-team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .section-team-item .subtitle {
     text-align: center;
 }
@@ -268,7 +319,6 @@ button {
     width: 264px;
     margin-top: 17.5px;
 }
-
 .portfolio-btn {
     color: var(--blue-accent-cl);
     background-color: var(--main-light-cl);
@@ -287,10 +337,13 @@ button {
 
 .portfolio-text {
     color: var(--main-dark-accent);
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
+
+.portfolio-main-item {}
 
 .portfolio-main {
     list-style: none;
@@ -303,7 +356,9 @@ button {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
 }
+
 .portfolio-list {
     display: flex;
     min-width: 586px;
+
 }
