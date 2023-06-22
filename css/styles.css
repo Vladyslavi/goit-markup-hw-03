@@ -12,6 +12,18 @@
 *::after {
     box-sizing: border-box;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -109,6 +121,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid var(--border-cl);
 }
 
 .header-item {
@@ -323,10 +336,14 @@ button {
     color: var(--blue-accent-cl);
     background-color: var(--main-light-cl);
     border: 1px solid var(--border-cl);
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
+    width: 116px;
+    height: 48px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 12px, 24px, 12px, 24px;
 }
 
 .portfolio-btn:hover,
@@ -360,5 +377,33 @@ button {
 .portfolio-list {
     display: flex;
     min-width: 586px;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+.portfolio-main.list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 90px;
+    padding-bottom: 120px;
 
 }
+
+.prtfolio-main-item:last-child {
+    margin-right: 0;
+}
+
+.portfolio-item {
+    width: 360px;
+    height: 420px;
+}
+
+.portfolio-main.link {}
+
+.portfolio-container {
+    border: 1px solid var(--border-cl);
+    border-top: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
