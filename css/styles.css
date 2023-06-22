@@ -96,12 +96,15 @@ button {
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
 }
+.header-section {
+    display: flex;
+    border-bottom: 1px solid var(--border-portfolio-color);
+}
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .header-item {
     padding-top: 24px;
     padding-bottom: 24px;
