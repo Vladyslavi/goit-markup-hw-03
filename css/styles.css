@@ -234,9 +234,6 @@ button {
 .hero-btn:focus {
     background-color: var(--BLUE-accent-cl);
 }
-.visually-hidden {
-    margin-bottom: 8px;
-}
 
 .section.advantages {
     padding-top: 120px;
@@ -260,7 +257,7 @@ button {
     margin-right: 0;
 }
 
-.section-advantages-subtitle {
+.section-advantages.subtitle {
     margin-bottom: 8px;
 }
 
