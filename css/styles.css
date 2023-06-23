@@ -252,9 +252,9 @@ button {
 
 .section-advantages-item {
     padding: 8px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:first-child {
-    width: calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:last-child {
     margin-right: 0;
