@@ -242,11 +242,6 @@ button {
 }
 .section {}
 
-.advantages {
-    padding-top: 120px;
-    padding-top: 60px;
-}
-
 .section-advantages {
     display: flex;
     padding-top: 120px;
@@ -262,6 +257,8 @@ button {
 
 .section-advantages-item {
     padding: 8px;
+}
+.section-advantages-item:first-child {
     width calc((100% - 3 * 24px) / 4);
 }
 .section-advantages-item:last-child {
