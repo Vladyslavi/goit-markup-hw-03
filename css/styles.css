@@ -324,14 +324,8 @@ button {
 
 .section-team-img {}
 
-.subtitle {
-    color: var(--secondary-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
+.section-team-subtitle {
+
 }
 
 .section-team-text {
