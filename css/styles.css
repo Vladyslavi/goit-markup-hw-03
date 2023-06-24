@@ -112,9 +112,11 @@ button {
     color: var(--main-light-cl);
 }
 .header {
+    display: flex;
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
     border-bottom: 1px solid var(--border-cl);
+    gap: 40px
 }
 
 .header-container {
@@ -124,7 +126,7 @@ button {
 }
 
 .header-item {
-
+    margin-right: 40px
 }
 
 .header-link {
