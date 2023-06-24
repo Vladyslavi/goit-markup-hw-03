@@ -47,7 +47,7 @@ h1,
 h2,
 h3,
 h4,
-h5 p {
+h5, p {
     margin: 0;
     padding: 0;
 }
@@ -124,11 +124,14 @@ button {
 }
 
 .header-item {
+
+}
+
+.header-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-.header-link {}
 
 .header-nav {
     display: flex;
@@ -209,7 +212,7 @@ button {
     text-align: center;
     color: var(--accent-cl);
     max-width: 496px;
-    padding-bottom: 48px;
+
     margin: 0 auto;
 }
 
@@ -228,6 +231,7 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
+    margin-top: 48px;
 }
 
 .hero-btn:hover,
@@ -262,6 +266,8 @@ button {
 .section-advantages-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
+    padding-top: 8px;
 }
 .section {}
 
@@ -280,7 +286,9 @@ button {
     gap: 24px;
     
 }
-
+.section-doing-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
 .section-doing-img:last-child{
     margin-right: 0;
 }
@@ -298,7 +306,7 @@ button {
 .section-team-list {
     display: flex;
     margin-bottom: 120px;
-    justify-content: space-between;
+    
     gap: 24px;
 }
 
@@ -309,6 +317,7 @@ button {
 .section-team-item {
     background: var(--accent-cl);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-team-img {}
@@ -339,7 +348,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 17.5px;
+    margin-top: 16px;
 }
  .footer .logo{
     display: inline-block;
@@ -410,6 +419,10 @@ button {
 
 }
 
+.portfolio-main-item {
+    width: calc((100% - 2 * 24) / 3);
+}
+
 .prtfolio-main-item:last-child {
     margin-right: 0;
 }
@@ -419,10 +432,14 @@ button {
     height: 420px;
 }
 
-.portfolio-main.link {}
+.portfolio-main.link {
+    display: flex;
+    flex-direction: column;
+}
 
 .portfolio-container {
     border: 1px solid var(--border-cl);
     border-top: none;
     padding: 32px 16px;
+    flex-grow: 1;
 }
